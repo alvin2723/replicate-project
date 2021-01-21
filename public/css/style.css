@@ -42,6 +42,10 @@ body {
   margin-left: 150px;
 }
 
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
 .navbar-right .btn-daftar {
   padding: 5px 15px !important;
   background-color: #ff6621;

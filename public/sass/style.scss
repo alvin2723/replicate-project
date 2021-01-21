@@ -37,6 +37,10 @@ body {
     align-items: end;
     margin-left: 150px;
 
+    a:hover{
+        text-decoration: underline;
+    }
+    
     .btn-daftar{
         padding:5px 15px !important;
         background-color: #ff6621;

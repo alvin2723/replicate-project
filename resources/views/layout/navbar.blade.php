@@ -41,10 +41,10 @@
               
             </div>
           </li>
-          
+
           <div class="navbar-right">
-            <li><a class="nav-link text-dark" href="#about">Masuk</a></li>
-            <li><a class="nav-link btn-daftar" href="#skill">Daftar</a></li>
+            <li><a class="nav-link text-dark" href="https://www.latihid.com/sign_in">Masuk</a></li>
+            <li><a class="nav-link btn-daftar" href="https://www.latihid.com/sign_up">Daftar</a></li>
           </div>
           
         </ul>
