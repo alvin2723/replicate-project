@@ -86,7 +86,7 @@
                 <div class="form-group">
                     <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
                 </div>
-                <button type="submit" class="btn btn-warning btn-block">Submit</button>
+                <a  href="https://latihid.us19.list-manage.com/subscribe/post?u=b9566c387466e869bbafe27aa&id=55ccb2e4bd" type="button" class="btn btn-warning btn-block text-center">Submit</a>
             </form>
         </div>
     </div>

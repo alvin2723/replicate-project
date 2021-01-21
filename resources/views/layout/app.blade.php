@@ -19,15 +19,17 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 <body>
+    {{-- Navbar Content --}}
     @include('layout.navbar')
+
     {{-- Main Content --}}
-    
     <main class="main">
       
         @yield('content')
     
     </main>
 
+    {{-- Footer Content --}}
     @include('layout.footer')
 
 

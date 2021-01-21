@@ -492,14 +492,15 @@ pre code {
 }
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
 }
 @media (min-width: 576px) {
     .container {
-        max-width: 540px;
+        margin-right:0;
+        margin-left:0;
     }
 }
 @media (min-width: 768px) {
@@ -2779,12 +2780,12 @@ input[type="submit"].btn-block {
 .collapse:not(.show) {
     display: none;
 }
-.collapsing {
+/* .collapsing {
     position: relative;
     height: 0;
     overflow: hidden;
     transition: height 0.35s ease;
-}
+} */
 @media screen and (prefers-reduced-motion: reduce) {
     .collapsing {
         transition: none;
@@ -3857,13 +3858,15 @@ input[type="submit"].btn-block {
     }
     .navbar-expand-lg .navbar-nav {
         position: absolute;
-        width: 200px;
         right: 0;
+        width: 200px;
         margin-top: 4px;
+        margin-left: auto;
         padding: 10px;
         border-radius: 4px;
         border: 1px solid #dbdbdb;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+        background:#fff;
         z-index: 5;
     }
     .dropdown-menu {

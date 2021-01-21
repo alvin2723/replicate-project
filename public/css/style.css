@@ -17,7 +17,32 @@ body {
   background-color: #ffe7dc;
 }
 
-.btn-daftar {
+.slick-prev {
+  left: -13px;
+}
+
+.slick-next {
+  right: -13px;
+}
+
+.navbar-left {
+  margin-right: auto !important;
+}
+
+.navbar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-left: 150px;
+}
+
+.navbar-right .btn-daftar {
   padding: 5px 15px !important;
   background-color: #ff6621;
   color: #fff !important;
@@ -26,12 +51,20 @@ body {
   margin-top: 6px;
 }
 
-.slick-prev {
-  left: -13px;
+@media only screen and (max-width: 1200px) {
+  .navbar-right {
+    margin-left: 0px;
+  }
 }
 
-.slick-next {
-  right: -13px;
+@media only screen and (max-width: 992px) {
+  .navbar-right {
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .banner-items {
