@@ -9,8 +9,8 @@ class HomeController extends Controller
 {
     public function index()
     {
+        // Get Data Course from JSON Database
         $course = Http::get('https://raw.githubusercontent.com/alvin2723/apiTest/main/course.json')->json();
-
         $course_data = $course['data'];
         $course_length = count($course_data);
 
