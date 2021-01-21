@@ -15,29 +15,29 @@
               Program
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#organization">LatihID Modul</a>
+              <a class="dropdown-item" href="https://www.latihid.com/courses/category/LatihIDModul">LatihID Modul</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#work">LatihID Talks</a>
+              <a class="dropdown-item" href="https://www.latihid.com/courses/category/LatihIDTalks">LatihID Talks</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#bootcamp">LatihID PETA</a>
+              <a class="dropdown-item" href="https://www.latihid.com/p/peta">LatihID PETA</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#bootcamp">LatihID MAJU</a>
+              <a class="dropdown-item" href="https://www.latihid.com/p/maju">LatihID MAJU</a>
               
             </div>
           </li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#about">Artikel</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#skill">Tentang Kami</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#portfolio">Ayo Kolaborasi</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="https://www.latihid.com/blog">Artikel</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="https://www.latihid.com/p/tentangkami">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="https://www.latihid.com/p/ayokolaborasi">Ayo Kolaborasi</a></li>
       
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+            <a class="nav-link dropdown-toggle text-dark" href="https://www.latihid.com/p/bantuan" id="navbarDropdown" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Bantuan
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#organization">FAQ</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#work">Kontak Kami</a>
+              <a class="dropdown-item" href="https://www.latihid.com/p/contact">Kontak Kami</a>
               
             </div>
           </li>
