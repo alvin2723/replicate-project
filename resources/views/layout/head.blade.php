@@ -5,8 +5,8 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
-<link href="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:32,height:32/https://www.filepicker.io/api/file/FtUxCn6UTOPHZvzTYA22" rel="icon" type="image/png">
-<title>Homepage | LatihID</title>
+<link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/favicon.png?v=1644210159590862765" type="image/png">
+<title>Home</title>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">

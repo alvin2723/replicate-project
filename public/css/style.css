@@ -5,22 +5,20 @@ body {
   color: #163F5B;
 }
 
-.blue-section {
-  background-color: #D7EFF4;
-}
-
 .grey-section {
   background-color: #d6d2c4;
 }
 
-.red-section {
-  background-color: #ffe7dc;
+.slick-next:before, .slick-prev:before {
+  font-size: 36px;
+  color: green;
 }
 
 .slick-prev {
   left: -13px;
 }
 
+.slick
 .slick-next {
   right: -13px;
 }
@@ -39,20 +37,15 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
-.navbar-right a:hover {
-  text-decoration: underline;
+.navbar-right li .number-cart {
+  padding-left: 10px;
 }
 
-.navbar-right .btn-daftar {
-  padding: 5px 15px !important;
-  background-color: #ff6621;
-  color: #fff !important;
-  border-radius: 15px;
-  display: block;
-  margin-top: 6px;
+.navbar-right li a:hover {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -77,6 +70,10 @@ body {
   margin-top: 60px;
 }
 
+.banner-items .banner-slider {
+  position: relative;
+}
+
 .banner-items .slick-prev {
   left: 34px;
   z-index: 1000;
@@ -91,344 +88,185 @@ body {
   opacity: 2;
 }
 
+.banner-items .banner-info {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 18%;
+}
+
+.banner-items .banner-info .banner-header {
+  padding-bottom: 8px;
+  font-size: 80px;
+  color: green;
+}
+
+.banner-items .banner-info .banner-desc {
+  padding-bottom: 8px;
+  font-size: 20px;
+  color: black;
+}
+
+.banner-items .banner-info .btn-banner {
+  padding: 20px;
+}
+
 .main-section {
   width: 100%;
 }
 
-.main-section .course-container {
+.main-section .product-container {
+  max-width: 1500px;
   width: 100%;
-  padding: 1.5625rem 13.3%;
+  padding: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.main-section .benefit-section .benefit-top-header {
-  margin-bottom: 50px;
-  text-align: center;
+.main-section .product-container .box-collection {
+  position: relative;
 }
 
-.main-section .benefit-section .benefit-image {
-  display: block;
-  height: 80px;
-  margin-bottom: 15px;
+.main-section .product-container .box-collection .box-collect-info {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
-.main-section .benefit-section .benefit-header {
-  margin-top: 10px;
-  font-size: 1.125rem;
-  line-height: 1.55;
-  font-weight: bold;
+.main-section .product-container .box-collection .box-collect-info .box-header {
+  padding-bottom: 5px;
 }
 
-.main-section .benefit-section .benefit-desc {
-  margin-top: 10px;
-  font-size: 18px;
-  line-height: 1.55;
-}
-
-@media only screen and (max-width: 768px) {
-  .main-section .benefit-section .benefit-image {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .main-section .benefit-section .benefit-header {
-    text-align: center;
-  }
-  .main-section .benefit-section .benefit-desc {
-    text-align: center;
-  }
-}
-
-.main-section .course-section {
-  width: 100%;
-  border-radius: 7px;
-  padding: 20px;
+.main-section .product-container .box-collection .box-collect-info .btn-collect {
+  padding: 10px;
 }
 
 @media only screen and (max-width: 768px) {
-  .main-section .course-section {
-    margin-top: 30px;
+  .main-section .product-container .box-collection .box-collect-info {
+    left: 10%;
   }
 }
 
-.main-section .course-section .course-category {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 30%;
-  padding: 30px 10px;
+.main-section .product-container .product-header {
+  margin: 20px 0 50px 0px;
 }
 
-.main-section .course-section .course-category img {
-  width: 30%;
-  margin-bottom: 10px;
+.main-section .product-container .product-section {
+  margin: 15px 0;
 }
 
-.main-section .course-section .course-category .category-desc {
-  width: 70%;
-  padding-left: 20px;
-}
-
-.main-section .course-section .course-category .category-desc .category-header {
-  font-size: 1.375rem;
-  line-height: 1.375rem;
-  font-weight: bold;
-  padding-bottom: 25px;
-  padding-left: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-  .main-section .course-section .course-category {
-    width: 100%;
-    padding-bottom: 40px;
-    text-align: center;
-  }
-}
-
-.main-section .course-section .course-category1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 30px 10px;
-}
-
-.main-section .course-section .course-category1 img {
-  width: 80px;
-  margin-bottom: 10px;
-}
-
-.main-section .course-section .course-category1 .category-desc {
-  margin: 0;
-}
-
-.main-section .course-section .course-category1 .category-desc .category-header {
-  font-size: 1.375rem;
-  line-height: 1.375rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.main-section .course-section .course-category1 .category-desc .category-content {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 768px) {
-  .main-section .course-section .course-category1 {
-    width: 100%;
-    padding-bottom: 40px;
-    text-align: center;
-  }
-  .main-section .course-section .course-category1 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.main-section .course-section .course-card {
+.main-section .product-container .product-section .product-card {
   position: relative;
   border-radius: 11px;
   -webkit-box-shadow: 0px 2px 15px 0.5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 15px 0.5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px 0.5px rgba(0, 0, 0, 0.1);
   min-height: 290px;
   background: #fff;
-  margin-right: 5px;
-  margin-left: 5px;
   margin-bottom: 20px;
 }
 
-.main-section .course-section .course-card .course-card-image img {
+.main-section .product-container .product-section .product-card .product-img img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   border-radius: 5px 5px 0px 0px;
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
-.main-section .course-section .course-card .course-card-desc {
-  padding: 14px;
-}
-
-.main-section .course-section .course-card .course-card-desc a {
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 22.5px;
-  color: #212121;
-}
-
-.main-section .course-section .course-card .course-card-desc .course-price {
+.main-section .product-container .product-section .product-card .product-img .product-info {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
   position: absolute;
-  bottom: 10px;
-  font-size: 0.9375rem;
-  line-height: 1.4063rem;
-  color: #ff6a0e;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.main-section .course-section .latih-course-desc {
-  padding: 15px 33px;
+.main-section .product-container .product-section .product-card .product-img .product-info:hover {
+  opacity: 1;
 }
 
-.main-section .course-section .latih-course-desc .latih-course-header {
-  text-align: left;
-  margin-bottom: 20px;
-  font-size: 1.9375rem;
-  line-height: 1.9375rem;
+.main-section .product-container .product-section .product-card .product-img:hover img {
+  opacity: 0.3;
+}
+
+.main-section .product-container .product-section .product-card .product-details {
+  padding: 15px 10px;
+}
+
+.main-section .product-container .product-section .product-card .product-details .product-name {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.main-section .product-container .product-section .product-card .product-details .product-desc {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.main-section .product-container .product-section .product-card .product-details .product-price {
+  padding-bottom: 10px;
+}
+
+.main-section .product-container .product-section .modal-details {
+  padding: 20px;
 }
 
 .footer-section {
   width: 100%;
-}
-
-.footer-section .collab-block-left, .footer-section .collab-block-right {
-  position: relative;
-  padding: 14px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.footer-section .collab-block-left .collab-content, .footer-section .collab-block-right .collab-content {
-  position: relative;
-  padding: 30px;
-  line-height: 2;
-  z-index: 2;
-  color: #fff;
-}
-
-.footer-section .collab-block-left .collab-content .collab-header, .footer-section .collab-block-right .collab-content .collab-header {
-  font-size: 1.875rem;
-}
-
-.footer-section .collab-block-left .collab-content .collab-desc, .footer-section .collab-block-right .collab-content .collab-desc {
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.5;
-  padding-bottom: 15px;
-  width: 400px;
-  z-index: 99;
-}
-
-.footer-section .collab-block-left {
-  background-image: url("https://1.bp.blogspot.com/-xj9cgzCuR2o/X4-SU5KwgDI/AAAAAAAAE7k/Y5pAuUEp7rUZXtnTVBtLISC2yJsWUVk_ACLcBGAsYHQ/s0/meeting.png");
-}
-
-.footer-section .collab-block-left:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(19, 71, 0, 0.6);
-  z-index: 1;
-}
-
-.footer-section .collab-block-right {
-  background-image: url("https://1.bp.blogspot.com/-WaLs1vlpcp0/X4-SU7KKPRI/AAAAAAAAE7g/YfKvSUalBRIxfTOumstN75xszg8Ts-B7wCLcBGAsYHQ/s0/Deal.png");
-}
-
-.footer-section .collab-block-right:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 71, 67, 0.6);
-  z-index: 1;
-}
-
-.footer-section .footer {
-  width: 100%;
-  padding: 0.75rem 1.125rem;
-  background: #EAF6F9;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-@media only screen and (max-width: 1239px) {
-  .footer-section .footer {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
-.footer-section .footer .footer-items {
-  padding: 0.75rem;
-  min-width: 12.5rem;
-}
-
-.footer-section .footer .footer-items img {
-  display: block;
-  margin: auto;
-  width: 70px;
-}
-
-.footer-section .footer .footer-items .footer-desc {
-  font-size: 0.75rem;
   margin-top: 20px;
-}
-
-.footer-section .footer .footer-items .footer-header {
-  font-size: 0.875rem;
-  padding-bottom: 10px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.footer-section .footer .footer-items .footer-menu {
-  list-style: none;
-  padding-left: 0;
-}
-
-.footer-section .footer .footer-items .footer-menu .footer-link {
-  margin: 0;
-  padding: 0;
-}
-
-.footer-section .footer .footer-items .footer-menu .footer-link a {
-  color: #163F5B;
-  font-size: 0.875rem;
-  letter-spacing: 1px;
-}
-
-.footer-section .footer .footer-items .footer-menu .footer-link a:hover {
-  text-decoration: underline;
-}
-
-.footer-section .footer .footer-items .footer-menu .footer-link a .footer-icon {
-  padding-right: 5px;
+  padding: 1.5625rem 1.125rem;
+  background-color: green;
 }
 
 .footer-section .footer-legal {
-  padding: 0.4375rem;
-  background-color: #eaf6f9;
   width: 100%;
 }
 
+.footer-section .footer-legal .footer-menu {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.footer-section .footer-legal .footer-menu .footer-link {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.footer-section .footer-legal .footer-menu .footer-link a {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.footer-section .footer-legal .footer-menu .footer-link a:hover {
+  text-decoration: underline;
+}
+
+.footer-section .footer-legal .footer-menu .footer-link a .footer-icon {
+  padding-right: 5px;
+}
+
 .footer-section .footer-legal .copyright {
-  color: #163F5B;
+  color: #fff;
   padding-bottom: 6px;
   font-size: 0.875rem;
   line-height: 1.3125rem;
   font-weight: bold;
   text-align: center;
 }
-/*# sourceMappingURL=style.css.map */

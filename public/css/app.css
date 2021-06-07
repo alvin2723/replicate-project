@@ -491,6 +491,7 @@ pre code {
     overflow-y: scroll;
 }
 .container {
+    
     width: 100%;
     padding-right: 20px;
     padding-left: 20px;
@@ -3611,14 +3612,22 @@ input[type="submit"].btn-block {
     margin-bottom: 0;
     list-style: none;
 }
+.nav-item{
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
 .nav-link {
     display: block;
-    padding: 0.7813rem 0.3125rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .nav-link:focus,
 .nav-link:hover {
+    color: green;
     text-decoration: none;
 }
+
 .nav-link.disabled {
     color: #6c757d;
 }
@@ -3720,9 +3729,11 @@ input[type="submit"].btn-block {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
+    padding-top:10px;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    font-size: 1.125rem;
 }
 .navbar-nav .nav-link {
     padding-right: 0;
@@ -3896,9 +3907,9 @@ input[type="submit"].btn-block {
         position: absolute;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
-        margin-left: 1rem;
-        padding-right: 0.3125rem;
-        padding-left: 0.3125rem;
+       
+        padding-right: 16px;
+        padding-left: 16px;
     }
     .navbar-expand-lg > .container,
     .navbar-expand-lg > .container-fluid {
@@ -4004,7 +4015,7 @@ input[type="submit"].btn-block {
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgba(0, 0, 0, 0.7);
+    color: green;
 }
 .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3);
@@ -4013,7 +4024,7 @@ input[type="submit"].btn-block {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-    color: rgba(0, 0, 0, 0.9);
+    color: green;
 }
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.5);
@@ -4084,6 +4095,7 @@ input[type="submit"].btn-block {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    
 }
 .card > hr {
     margin-right: 0;
@@ -4940,6 +4952,8 @@ button.close {
     display: none;
     overflow: hidden;
     outline: 0;
+    width: 100%;
+    height: 100%;
 }
 .modal-dialog {
     position: relative;
